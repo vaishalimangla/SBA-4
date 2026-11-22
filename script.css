@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  border-color: white;
+  
+}
+
+.container.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: white;
+}
+.btn.save {
+  background-color: chocolate;
+  border-color: chocolate;
+  color: white;
+  border-radius: 4px;
+}
+.btn.save:hover {
+  background-color: #a85216;
+  border-color: #a85216;
+  color: white;
+}
