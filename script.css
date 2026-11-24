@@ -1,27 +1,24 @@
-.container {
+ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: lightblue;
-  border-color: white;
+  flex-direction: row; /* Default, can be omitted */
+  gap: 16px;
+}
+  
+button{
+  margin-left: 12px;
+}
+#saveBtn {
+  background-color: #007bff; /* Blue background */
+  color: white;              /* White text */
+  border: 2px;              /* Removes default border */
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
   
 }
-
-.container.card{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-color: white;
+td{
+  padding-left: 5px;
 }
-.btn.save {
-  background-color: chocolate;
-  border-color: chocolate;
-  color: white;
-  border-radius: 4px;
-}
-.btn.save:hover {
-  background-color: #a85216;
-  border-color: #a85216;
-  color: white;
+th{
+  padding: 10px;
 }
