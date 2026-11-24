@@ -1,0 +1,31 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  /* Default, can be omitted */
+  gap: 16px;
+}
+
+button {
+  margin-left: 12px;
+}
+
+#saveBtn {
+  background-color: #007bff;
+  /* Blue background */
+  color: white;
+  /* White text */
+  border: 2px;
+  /* Removes default border */
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+
+}
+
+td {
+  padding-left: 5px;
+}
+
+th {
+  padding: 10px;
+}
